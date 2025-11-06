@@ -50,7 +50,6 @@ export async function extractPackageFile(
       currentValue: pythonConstraint,
       commitMessageTopic: 'Python',
       datasource: PythonVersionDatasource.id,
-      versioning: pep440.id,
     });
   }
 

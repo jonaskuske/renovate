@@ -243,7 +243,7 @@ describe('modules/manager/pep621/extract', () => {
           datasource: 'python-version',
           depType: 'requires-python',
           packageName: 'python',
-          versioning: 'pep440',
+          versioning: 'python',
         },
         {
           packageName: 'blinker',
